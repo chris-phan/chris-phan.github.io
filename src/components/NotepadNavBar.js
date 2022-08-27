@@ -53,24 +53,24 @@ export default NotepadNavBar;
 const divStyle = {
 	borderBottom: '2px solid #f0f0f0',
 	padding: '0px',
-	height: '6.5%'
+	height: '47.2px',
 };
 
 const iconStyle = {
 	marginTop: '3px',
-	marginBottom: '2px',
 	marginLeft: '5px',
 	marginRight: '3px',
 };
 
-const notepadNameStyle = {
+const notepadNameStyle = {	
 	display: 'inline-block',
 	fontFamily: 'Calibri',
 	fontSize: '14px',
 
 	// Moves the text up a bit to align with the icon
 	position: 'relative',
-	bottom: '5px',
+	top: '2px',
+	marginBottom: '0',
 };
 
 const optionBtnStyle = {
@@ -84,9 +84,9 @@ const optionBtnStyle = {
 
 	// Moves the text up a bit to align with the icon
 	position: 'relative',
-	top: '2px',
+	bottom: '3px',
 };
 
 const font = {
 	fontFamily: 'Calibri'
-}
+};

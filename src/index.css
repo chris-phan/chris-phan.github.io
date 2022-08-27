@@ -4,6 +4,7 @@
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 /* Makes the div span the whole page */
 html, body, #root, #root>div {
 	height: 100%;
@@ -36,11 +37,28 @@ i {
 	word-wrap: break-word;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 809px),
+	   screen and (max-height: 700px) {
 	#landingScreen {
 		display: none;
 	}
+	#face_left {
+		width: 50vw
+	}
 }
+
+
+/* #np-body > p {
+	margin: 0;
+	margin-left: 1vw !important;
+    margin-top: 0px !important;
+    font-size: 1vw !important;
+    font-family: 'monospace, Consolas, Monaco, Andale Mono';
+    font-weight: bold;
+    white-space: pre;
+    overflow-y: auto;
+    overflow-x: hidden;
+} */
 
 /* #landingScreen {
 	width: 100%;

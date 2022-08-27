@@ -25,7 +25,7 @@ const NotepadBody = () => {
             <p style={textStyling}>                                 /         \\</p>
             <p style={textStyling}>                               /   -         |\</p>
             <p style={textStyling}>                                       -      /</p>
-            <p style={textStyling}>                               ]   /         /</p>
+            {/* <p style={textStyling}>                               ]   /         /</p> */}
             <p style={textStyling}>                               \     \      \</p>
             <p style={textStyling}>                               /           /_ _</p>
             <p style={textStyling}>                                | -       \    \</p>
@@ -46,17 +46,23 @@ export default NotepadBody;
 
 const divStyle = {
     height: 'auto',
-    overflowY: 'auto',
-    overflowX: 'hidden'
+    overflowY: 'hidden',
+    overflowX: 'hidden',
+    paddingTop: 'auto',
+    position: 'absolute',
+    bottom: '0',
 }
 
-const textStyling = {
-    marginLeft: '1vwpx',
-    marginTop: '0px',
-    fontSize: '1vw',
+const textStyling = {    
+    margin: '0',
+    fontSize: '14px',
     fontFamily: 'monospace, Consolas, Monaco, Andale Mono',
     fontWeight: 'bold',
     whiteSpace: 'pre',
-    overflowY: 'auto',
+    overflowY: 'hidden',
     overflowX: 'hidden',
+    width: '1024px',
+    height: '20px',
+    lineHeight: '20px',
+    position: 'relative',
 }
