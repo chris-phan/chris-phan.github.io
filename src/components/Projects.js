@@ -37,7 +37,7 @@ const Projects = () => {
                     <Card className="mt-4" >
                         <Card.Header style={headerColor}>Davis Dining Commons 🥦</Card.Header>
                             <Card.Body>
-                                <Card.Subtitle className="mb-2 text-muted">HackDavis 2021</Card.Subtitle>
+                                <Card.Subtitle className="mb-2 text-muted">HackDavis 2022</Card.Subtitle>
                                 <Card.Text>
                                     Prototype website that builds upon the idea of having the menu of UC Davis' dining commons online.<br/><br/>
                                     Improves the filter options for various  dietary restrictions and streamlines navigation between dining commons.<br/><br/>
@@ -72,7 +72,7 @@ const Projects = () => {
                     <Card className="mt-2" >
                         <Card.Header style={headerColor}>This Website! 🌐</Card.Header>
                         <Card.Body>
-                            <Card.Subtitle className="mb-2 text-muted">2021-Present</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">2022</Card.Subtitle>
                             <Card.Text>
                                 Made with React and Bootstrap
                             </Card.Text>
