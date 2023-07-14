@@ -1,71 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,700;1,900&display=swap');
+
 * {
-	margin: 0;
-	padding: 0;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
-
-/* Makes the div span the whole page */
-html, body, #root, #root>div {
-	height: 100%;
+body {
+  background-color: rgb(32, 42, 68);
 }
-
-code {
-	font-family: monospace, Consolas, Monaco, Andale Mono;
-	background-color: #e0e0e0;
-	color: crimson;
-	padding-left: 0.5vw;
-	padding-right: 0.5vw;
-}
-
-i {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.optionButton {
-	background-color: transparent;
-	border: 1px solid transparent;
-}
-
-.optionButton:hover {
-	background-color: #e5f3ff !important;
-	border: 1px solid #cce8ff;
-}
-
-.staticTreeLine, #animateDialog, #animateBird {
-	display: inline;
-	word-wrap: break-word;
-}
-
-@media screen and (max-width: 809px),
-	   screen and (max-height: 700px) {
-	#landingScreen {
-		display: none;
-	}
-	#face_left {
-		width: 50vw
-	}
-}
-
-
-/* #np-body > p {
-	margin: 0;
-	margin-left: 1vw !important;
-    margin-top: 0px !important;
-    font-size: 1vw !important;
-    font-family: 'monospace, Consolas, Monaco, Andale Mono';
-    font-weight: bold;
-    white-space: pre;
-    overflow-y: auto;
-    overflow-x: hidden;
-} */
-
-/* #landingScreen {
-	width: 100%;
-    height: 100%;
-    background-image: url("./images/stone_ocean.PNG");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */

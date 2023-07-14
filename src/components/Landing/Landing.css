@@ -1,0 +1,33 @@
+.landing {
+    background-color: rgb(32, 42, 68);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dot {
+    position: fixed;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10%;
+    z-index: 2;
+}
+
+.name {
+    color: lightyellow;
+    font-size: 4rem;
+}
+
+.subtitle {
+    color: lightyellow;
+    font-size: 1rem;
+    font-weight: 500;
+    align-self: flex-end;
+}

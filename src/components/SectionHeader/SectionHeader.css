@@ -1,0 +1,8 @@
+.section-header {
+    text-align: center;
+    color: lightyellow;
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 7%;
+    background-color: hsla(223, 36%, 10%);
+}

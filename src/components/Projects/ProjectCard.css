@@ -1,0 +1,57 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-image {
+    position: absolute;
+    z-index: 1;
+}
+
+.project-content {
+    position: relative;
+    z-index: 10;
+}
+
+.project-title {
+    margin-left: 10%;
+    color: lightyellow;
+    font-size: 2.25rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.project-title:hover {
+    text-decoration: underline lightyellow 3px;
+}
+
+.project-content > .bar {
+    position: absolute;
+    height: 4px;
+    width: 40px;
+    background-color: lightyellow;
+    bottom: -30px;
+    left: 10%;
+}
+
+.project-subtitle {
+    margin-left: 10%;
+    color: lightyellow;
+    z-index: 10;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
