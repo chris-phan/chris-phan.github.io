@@ -1,0 +1,52 @@
+.experience-card {
+    display: flex;
+    flex: 1 0 0;
+    justify-content: space-between;
+    padding: 40px 10%;
+    gap: 8px;
+}
+
+.experience-card .title-and-date {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    min-width: 30%;
+    max-width: 30%;
+}
+
+.experience-card .title-and-role {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience-card h2 {
+    color: lightyellow;
+    font-size: 2.5rem;
+}
+
+.experience-card p {
+    color: lightyellow;
+}
+
+.experience-card .role {
+    font-size: 1rem;
+}
+
+.experience-card .date {
+    font-size: 1rem;
+}
+
+.experience-card .body {
+    font-size: 1.25rem;
+    white-space: pre-line;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.experience-card .body li {
+    color: yellow;
+}

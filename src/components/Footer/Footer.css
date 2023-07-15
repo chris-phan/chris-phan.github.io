@@ -1,0 +1,15 @@
+.footer {
+    background-color: hsla(223, 36%, 10%);
+    padding: 10vh 10%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer a {
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+    height: 40px;
+}

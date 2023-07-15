@@ -1,0 +1,7 @@
+.about .body {
+    padding: 10vh 10%;
+    color: lightyellow;
+    font-size: 1.25rem;
+    white-space: pre-line;
+    text-align: center;
+}

@@ -21,11 +21,13 @@ function Skills() {
 		{ text: 'Git', value: '8' },
 		{ text: 'Node.js', value: '7' },
 		{ text: 'Firebase', value: '3' },
-		{ text: 'Bootstrap', value: '4' },
+		{ text: 'Bootstrap', value: '3' },
 		{ text: 'Webpack', value: '5' },
 		{ text: 'Jest', value: '3' },
 		{ text: 'UNIX', value: '5' },
 		{ text: 'GitHub', value: '8' },
+		{ text: 'Figma', value: '2' },
+		{ text: 'GoogleTest', value: '2' },
 	];
 	return (
 		<div>
@@ -35,17 +37,23 @@ function Skills() {
 				width={Math.min(300, width)}
 				height={150}
 				font="Roboto"
-				fontSize={(word) => Math.log2(word.value) * 5}
+				fontSize={(word) => word.value * 2.15}
 				spiral="archimedean"
 				rotate={(word) => {
 					const random = Math.random();
-					if (random < 0.125) {
+					if (word.value <= 3) {
+						return 0;
+					}
+					if (random < 0.0625) {
 						return 90;
+					}
+					if (random > 0.0625 && random < 0.125) {
+						return 270;
 					}
 					return 0;
 				}}
 				random={() => {
-					return 0.5;
+					return 0.48;
 				}}
 				fill={() => {
 					const random = Math.floor(Math.random() * 4);
