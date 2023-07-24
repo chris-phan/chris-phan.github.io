@@ -11,7 +11,7 @@ function Education() {
 				subtext="Aug. 2017 - Jun. 2021, GPA: 4.0"
 			/>
 			<EducationCard
-				name="UC Davis"
+				name="University of California, Davis"
 				subtext="Expected Graduation: Jun. 2025, GPA: 3.98"
 			/>
 		</div>

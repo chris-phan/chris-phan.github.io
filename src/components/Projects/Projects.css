@@ -1,7 +1,7 @@
 .projects {
     margin-top: 10vh;
     background-color: rgba(32, 42, 68, 0.1);
-
+    padding: none;
 }
 
 .projects-header {

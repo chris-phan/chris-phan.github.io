@@ -50,7 +50,7 @@ function Landing() {
 					return <div className="dot" key={idx} style={dot}></div>;
 				})}
 			</>
-			<div className="container">
+			<div className="landing-container">
 				<h1 className="name">Chris</h1>
 				<h2 className="subtitle">CS @ UCD '25</h2>
 			</div>

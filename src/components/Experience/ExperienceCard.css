@@ -11,8 +11,8 @@
     flex-direction: column;
     gap: 30px;
     align-items: flex-start;
-    min-width: 30%;
-    max-width: 30%;
+    /* min-width: 30%;
+    max-width: 30%; */
 }
 
 .experience-card .title-and-role {
