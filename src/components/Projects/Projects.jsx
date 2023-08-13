@@ -18,7 +18,7 @@ function Projects() {
 			<SectionHeader header="Projects" />
 			<Container fluid>
 				<Row>
-					<Col md={12} lg={6}>
+					<Col md={12} lg={6} xxl={4}>
 						<ProjectCard
 							title="HTAP Database"
 							background_image={LStoreImg}
@@ -28,7 +28,7 @@ function Projects() {
 							left={-60}
 						/>
 					</Col>
-					<Col md={12} lg={6}>
+					<Col md={12} lg={6} xxl={4}>
 						<ProjectCard
 							title="The Odin Project"
 							background_image={OdinImg}
@@ -38,9 +38,9 @@ function Projects() {
 							left={-25}
 						/>
 					</Col>
-				</Row>
-				<Row>
-					<Col md={12} lg={6}>
+					{/* </Row>
+				<Row> */}
+					<Col md={12} lg={6} xxl={4}>
 						<ProjectCard
 							title="Minesweeper"
 							background_image={MinesweeperImg}
@@ -50,7 +50,7 @@ function Projects() {
 							left={-100}
 						/>
 					</Col>
-					<Col md={12} lg={6}>
+					<Col md={12} lg={6} xxl={4}>
 						<ProjectCard
 							title="Discord Bot"
 							background_image={DiscordBotImg}
@@ -60,9 +60,9 @@ function Projects() {
 							left={-5}
 						/>
 					</Col>
-				</Row>
-				<Row>
-					<Col md={12} lg={6}>
+					{/* </Row>
+				<Row> */}
+					<Col md={12} lg={6} xxl={4}>
 						<ProjectCard
 							title="HackDavis 2022"
 							background_image={DDCImg}
@@ -72,7 +72,7 @@ function Projects() {
 							left={-15}
 						/>
 					</Col>
-					<Col md={12} lg={6}>
+					<Col md={12} lg={6} xxl={4}>
 						<ProjectCard
 							title="This website!"
 							background_image={PersonalWebsiteImg}

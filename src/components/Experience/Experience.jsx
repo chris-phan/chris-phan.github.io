@@ -6,8 +6,7 @@ function Experience() {
 	const optum_body = [
 		'Performed migration from Angular v8 to Angular v14 to address security vulnerabilities in two different portals',
 		"Upgraded to the latest version of Optum's UI Tool Kit to modernize and revamp the UI",
-		'Worked on a common UI for future onboarding of new states onto the State Master Provider File portal',
-		'Demoed the upgraded Advanced Medical Home and Clinically Integrated Network portal to users and deployed it to production',
+		'Worked with Java and Spring Boot to consume and integrate a new API to create an easily configurable common UI for efficient future onboarding of new states',
 	];
 	const aatc_body = [
 		'Held individual tutoring sessions for students learning data structures and algorithms',

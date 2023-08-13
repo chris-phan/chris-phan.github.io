@@ -28,6 +28,9 @@ function Skills() {
 		{ text: 'GitHub', value: '8' },
 		{ text: 'Figma', value: '2' },
 		{ text: 'GoogleTest', value: '2' },
+		{ text: 'Java', value: '2' },
+		{ text: 'Spring Boot', value: '1' },
+		{ text: 'Postman', value: '5' },
 	];
 	return (
 		<div>
