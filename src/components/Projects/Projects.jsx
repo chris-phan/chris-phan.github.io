@@ -54,7 +54,7 @@ function Projects() {
 						<ProjectCard
 							title="Discord Bot"
 							background_image={DiscordBotImg}
-							link="https://replit.com/@cruckus/cruckus-Bot?v=1"
+							link="https://github.com/chris-phan/manga-bot"
 							rotate_amt={-10}
 							top={-25}
 							left={-5}

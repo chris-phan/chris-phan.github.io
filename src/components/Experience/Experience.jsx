@@ -3,6 +3,11 @@ import SectionHeader from '../SectionHeader/SectionHeader';
 import ExperienceCard from './ExperienceCard';
 
 function Experience() {
+	const workday_body = [
+		"Revamped One-Time Payment REST API for Workday Extend by adding stricter validations and new input fields",
+		"Worked with internal frameworks to manage user permissions and security",
+		"Created unit tests and the automation suite to ensure correctness using the internal WATS framework"
+	];
 	const optum_body = [
 		'Performed migration from Angular v8 to Angular v14 to address security vulnerabilities in two different portals',
 		"Upgraded to the latest version of Optum's UI Tool Kit to modernize and revamp the UI",
@@ -17,6 +22,12 @@ function Experience() {
 	return (
 		<div className="experience">
 			<SectionHeader header="Experience" />
+			<ExperienceCard
+				title="Workday"
+				role="Software Application Engineer Intern"
+				date="Jun. 2024 - Sep. 2024"
+				body={workday_body}
+			/>
 			<ExperienceCard
 				title="Optum"
 				role="TDP Intern"
